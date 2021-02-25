@@ -1,4 +1,4 @@
-from alerts import Alerter  # , BasicMatchString
+from .alerts import Alerter  # , BasicMatchString
 import logging
 from pyzabbix.api import ZabbixAPI
 from pyzabbix import ZabbixSender, ZabbixMetric

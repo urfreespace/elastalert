@@ -10,7 +10,7 @@ import elasticsearch.helpers
 import yaml
 from elasticsearch import RequestsHttpConnection
 from elasticsearch.client import Elasticsearch
-from elasticsearch.client import IndicesClient
+from elasticsearch.client.indices import IndicesClient
 from elasticsearch.exceptions import NotFoundError
 from envparse import Env
 
